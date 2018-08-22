@@ -1,11 +1,21 @@
 <div class="container">
   <div class="objects">
-      <div class="object">dsfsfs</div>
+  <%= @emails.each do |e| %>
+      <div class="object"><%= e.object %></div>
+      <% end %>
+      
+      
   </div>
   <div class="emails">
     <div class="subject">
     </div>
     <div class="email">
+
+<div>
+	<%= @emails.each do |e| %>
+		Object: <%= e.object %> </br>
+	<% end %>
+</div>
     </div>
   </div>
 </div>

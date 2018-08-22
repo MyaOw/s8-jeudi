@@ -12,6 +12,7 @@
   height: 100%;
   width: 30%;
   background-color: chocolate;
+  overflow: auto
 }
 
 .object {  
@@ -28,7 +29,7 @@
 
 .emails {
   height: 100%;
-  width: 69%;
+  width: 70%;
   background-color: blueviolet;
   display: flex;
   flex-direction: column;
@@ -43,4 +44,5 @@
 .email {
   height: 91%;
   background-color: deeppink;
+  overflow: auto
 }

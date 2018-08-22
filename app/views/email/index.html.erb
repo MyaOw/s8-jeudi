@@ -1,7 +1,4 @@
-<div>
-	<%= @emails.each do |e| %>
-		Object: <%= e.object %> </br>
-		Body: <%= e.body %> </br>
-	<% end %>
+<div class="wrapper">
+  <%= render 'shared/header' %>
+  <%= render 'shared/emails' %>
 </div>
-

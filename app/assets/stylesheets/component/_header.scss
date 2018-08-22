@@ -1,0 +1,14 @@
+/* Add a black background color to the top navigation */
+.navbar {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: black;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}

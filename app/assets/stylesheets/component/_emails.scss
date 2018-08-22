@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 1%;
+  background-color: chartreuse;
+  width: 75%;
+  height: 90vh;
+}
+
+.objects {
+  height: 100%;
+  width: 30%;
+  background-color: chocolate;
+}
+
+.object {  
+  display: flex;
+  align-items: center;
+  height: 8%;
+  padding-left: 15px;
+  background-color: forestgreen;
+}
+
+.new {
+  background-color: rgba(137, 33, 185, 0.5);
+}
+
+.emails {
+  height: 100%;
+  width: 69%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subject {
+  height: 8%;
+  background-color: cyan;
+}
+
+.email {
+  height: 91%;
+  background-color: deeppink;
+}

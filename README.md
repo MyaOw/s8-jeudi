@@ -1,24 +1,15 @@
-# README
+# Mes emails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Un client mail tout pourri qui ne fait même pas tout ce qu'on lui demande !
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+`git clone https://github.com/MyaOw/s8-jeudi.git`
+`bundle install --without production`
+`rails db:migrate`
+`rails db:seed`
+`rails s`
 
-* System dependencies
+## Version en prod
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<https://emails-ajax.herokuapp.com/>

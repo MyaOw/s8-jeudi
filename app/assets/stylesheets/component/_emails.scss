@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  margin-top: 1%;
+  margin-top: 5px;
   background-color: chartreuse;
   width: 75%;
   height: 90vh;
@@ -55,4 +55,8 @@
   background-color: white;
   overflow: auto;
 
+}
+
+i {
+  color: rgb(0, 132, 255);
 }

@@ -15,4 +15,8 @@ class EmailController < ApplicationController
   		@email = Email.find(params[:id])
     end
 
+    def title
+  		@email = Email.find(params[:id])
+    end
+
 end

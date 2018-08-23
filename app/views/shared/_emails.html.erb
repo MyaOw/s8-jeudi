@@ -1,17 +1,13 @@
 <div id="container">
   <div id="objects">
     <% @emails.each do |e| %>
-      <div id="object"><%= e.object %></div>
+      <div class="object" onclick="showEmail(<%= e.id %>);showTitle(<%= e.id %>)"><%= e.object %></div>
     <% end %> 
   </div>
   <div id="emails">
     <div id="subject">
-		  <h2><i class="far fa-envelope"></i>&nbsp;&nbsp;&nbsp;<%= @emails[0].object %></h2>
     </div>
     <div id="email">
-      <div>
-        <%= @emails[0].body %>
-      </div>
     </div>
   </div>
 </div>

@@ -3,7 +3,6 @@
   justify-content: space-between;
   margin: 0 auto;
   margin-top: 5px;
-  background-color: chartreuse;
   width: 75%;
   height: 90vh;
 }
@@ -16,7 +15,7 @@
   border: 1px solid #e6e6e6;
 }
 
-#object {  
+.object {  
   display: flex;
   align-items: center;
   height: 8%;
@@ -45,6 +44,9 @@
   height: 8%;
   background-color: #e6e6e6;
   padding-left: 5%;
+  padding-top: 2%;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 #email {

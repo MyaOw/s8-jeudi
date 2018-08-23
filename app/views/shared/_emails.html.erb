@@ -1,21 +1,23 @@
-<div class="container">
-  <div class="objects">
-  <%= @emails.each do |e| %>
-      <div class="object"><%= e.object %></div>
+<div id="container">
+  <div id="objects">
+  <% @emails.each do |e| %>
+      <div id="object"><%= e.object %></div>
       <% end %>
       
       
   </div>
-  <div class="emails">
-    <div class="subject">
+  <div id="emails">
+    <div id="subject">
+		    <h2><%= @emails[0].object %></h2>
     </div>
-    <div class="email">
-
+    <div id="email">
 <div>
-	<%= @emails.each do |e| %>
-		Object: <%= e.object %> </br>
-	<% end %>
+		<%= @emails[0].body %>
 </div>
     </div>
   </div>
 </div>
+
+<%= @toto %> 
+
+

@@ -3,7 +3,8 @@ class EmailController < ApplicationController
 
     def index
     	@email = Email.new
-  		@emails = Email.all
+      @emails = Email.all
+      @toto ="pouet"
     end
 
     def create 
